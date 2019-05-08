@@ -1,0 +1,112 @@
+/**@import url('http://localhost/wordpressdev/wp-content/themes/theme1/asset/css/blog.css');**/
+@import url('http://localhost/wordpressdev/wp-content/themes/theme1/asset/css/newcss.css');
+*{font-family: 'Droid Serif', serif;}
+h1,h2,h3,h4,h5,h6{margin: 5px 0px;}
+.space_betwen_section{margin-top: 50px;}
+header .navbar-default {
+    margin-bottom: 0px;
+}
+
+.top_bare {
+    background: #b5b6b7;
+    height: 31px;
+    padding: 0px 15px;
+}
+
+.navbar{
+    /**height: 99px;**/
+    background:#5e686f;
+    border-radius: 0px;border: none;
+}
+
+#content_toogle_menu{
+        width: 251px;
+    display: inline-flex;
+}
+.logo-link-img .logo{
+    width: 90px;
+    padding: 4px 0;
+}
+
+.toogle_menu{
+     width: 55px;
+    height: 100%;
+    padding: 6px 11px;
+}
+
+#icon_toogle_main_menu {
+    font-size: 33px;
+    color:#fefefe;
+}
+
+.menu_toogle {
+   background: #fefefe;
+    position: absolute;  
+    margin: 0px 3px;
+    padding: 15px 25px;
+}
+
+ul.sub-menu{
+     list-style-type: none;
+    display: none;
+    position: absolute;
+}
+#div_logo{
+        padding: 8px 0px 0px 0px;
+}
+
+.form_control_theme1{
+        border-radius: 0px;
+}
+#input_search{
+    width: 360px;
+}
+
+#btn_search{
+    color: #fff;
+    background: #235375;
+    border: none;
+}
+
+.navbar-default .navbar-nav>li>a{
+     color:#fefefe;
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+         color:#fefefe;
+        background: #406779;
+}
+#bs-example-navbar-collapse-1{
+
+}
+
+
+.panel-grid row{
+   margin-right: 0 !important;
+   /**position: absolute;*/
+}
+
+
+.site-footer{
+    background: #000000;
+    color: #fefefe;    
+}
+
+.site-footer ul{
+  list-style-type: none;
+}
+
+.site-info{
+      padding: 55px 52px;
+}
+.hidden{
+    visibility: hidden; 
+    display: none;
+    width: 0px;
+    height: 0px;
+}
+

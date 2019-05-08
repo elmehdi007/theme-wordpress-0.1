@@ -1,0 +1,50 @@
+
+.main_search{
+    
+}
+.contaner_search_result {
+
+    margin: 0px auto;
+    width: 60%;
+    padding: 38px 12px;
+}
+
+.search_page_title{
+    font-weight: bold;
+    color: #000;
+}
+
+.list_result_search {
+    padding: 0px;
+}
+
+.list_result_search ,.list_result_search li{
+    list-style-type: none;
+    padding: 28px 0px;
+}
+
+.list_result_search ,.list_result_search li a{
+    color: #000000;
+    text-decoration: none;
+}
+.alert_not_found_result{
+        margin-top: 20px;
+}
+
+.info_search_post{
+        margin-top: 20px;
+}
+
+.info_search_post td{
+    padding: 0px 5px;
+}
+.extrat_post{
+     margin-top: 20px;
+}
+
+.extrat_post a.link_read_more{
+        background: #5e686f;
+    padding: 7px 21px;
+    display: inline-flex;
+    color: #ffffff;
+}
